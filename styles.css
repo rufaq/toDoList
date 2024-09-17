@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: blanchedalmond;
+}
+.inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.debil {
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.te {
+    width: 200px;
+}
+.btn {
+    width: 80px;
+    background-color: bisque;
+    transition: 0.4s;
+}
+.btn:hover {
+	background-color: black;
+    color: aliceblue;
+    transform: scale(1.12);
+    transition: 0.1s;
+}
+.btn:active {
+	background-color: black;
+    color: aliceblue;
+    transform: scale(0.9);
+    transition: 0.1s;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    height: 100%;
+}
+.delbtn {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+.redbtn {
+    height: 100%;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 5px;
+    width: 100%;
+}
+.savebtn {
+    height: 100%;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 5px;
+    width: 100%;
+}
+.tasktext {
+    max-width: 60%;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+.tempbtn {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    min-width: 110px;
+}
+.date {
+    background-color: brown;
+    white-space: nowrap;
+}
