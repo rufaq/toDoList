@@ -110,12 +110,14 @@ function editTaskHTML(e, redButton, taskP) {
     const editField = document.createElement('textarea')
     const taska = redButton.closest('.task')
     const taskContent = taska.querySelector('.tasktext')
-    const fieldSize = taskContent.offsetHeight
+    const fieldSizeH = taskContent.offsetHeight
+    const fieldSizeW = taskContent.offsetWidth
     editField.style.cssText += `
         background-color: red;
         font-size: 18px;
         font-weight: 600;
-        height: ${fieldSize}px;
+        height: ${fieldSizeH}px;
+        width: ${fieldSizeW}px;
         word-wrap: break-word;
         padding: 2px 6px;
     `;
